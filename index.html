@@ -12,17 +12,50 @@
     <header class="container">
         <h1 class="container"><a class="active" href="index.html">Stylist - Professional hairdresser`s shop</a></h1>
         <nav class="navbar navbar-expand-lg navbar-light">
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-                <a class="navbar-brand" href="#">Інструменти</a>
-                <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Косметика</a>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Інструменти
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#">Машинки для стрижки</a>
+						    <a class="dropdown-item" href="#">Тримера для бороди</a>
+						    <a class="dropdown-item" href="#">Професійні ножниці</a>
+						    <a class="dropdown-item" href="#">Фен</a>
+						    <a class="dropdown-item" href="#">Випрямляючі утюжки</a>
+						    <a class="dropdown-item" href="#">Плойки</a>
+						    <a class="dropdown-item" href="#">Конусні плойки</a>
+						    <a class="dropdown-item" href="#">Стайлери для волосся</a>
+						    <a class="dropdown-item" href="#">Електронні ваги</a>
+                        </div>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Аксесуари</a>
+                    <li class="nav-item active dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Косметика
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#">Для волосся</a>
+						    <a class="dropdown-item" href="#">Для Тіла</a>
+						    <a class="dropdown-item" href="#">Для лиця</a>
+						    <a class="dropdown-item" href="#">Для рук</a>
+						    <a class="dropdown-item" href="#">Подологія(для ніг)</a>
+                        </div>
+                    </li>
+                    <li class="nav-item active dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Аксесуари
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#">Для перукарів</a>
+						    <a class="dropdown-item" href="#">Парфуми</a>
+						    <a class="dropdown-item" href="#">Манікюрний Інструменти</a>
+						    <a class="dropdown-item" href="#">Професійний одяг</a>
+						    <a class="dropdown-item" href="#">Інше</a>
+                        </div>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">Бренди</a>
@@ -41,9 +74,9 @@
             <form class="form-inline my-2 my-lg-0">
                 <input class="form-control mr-sm-1" type="search" placeholder="Search" aria-label="Search">
                 <div id="headicon">
-                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit"><img src="img/supImg/find.png" alt="find icon" height="20px" width="20px"></button>
+                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit"><img id="search-icon" src="img/supImg/find.png" alt="find icon"></button>
                     <a class="nav-link openCartLink" href="#modal-cart" data-toggle="modal">
-                        <i class="fas fa-shopping-cart"></i><img src="img/supImg/cart.png" alt="cart icon" height="30px" width="30px">
+                        <i class="fas fa-shopping-cart"></i><img src="img/supImg/cart.png" alt="cart icon" id="cart-icon">
                         <span id="cart-badge" class="badge badge-light"></span>
                     </a>
                 </div>    
@@ -79,7 +112,7 @@
         <h3 class="popular">Найпопулярніші позиції</h3>
         <div class="row">
             <article  class="card col-12 col-sm-6 col-md-4" style="width: 18rem;">
-                <img src="img/cards/cortoa6.jpg" class="card-img-top" alt="Coifin corto a6 black, the box">
+                <img src="img/cards/moser-t-cut.jpg" class="card-img-top" alt="Coifin corto a6 black, the box">
                 <div class="card-body">
                     <h5 class="card-title">Moser T-Cut Тример</h5>
                     <p class="card-text">Тример Moser T-Cut - стильна і зручна машинка для окантовки з широким лезом T-Blade (40 мм). Є ідеальним варіантом для справжнього професіонала.</p>
@@ -92,40 +125,62 @@
             <article  class="card col-12 col-sm-6 col-md-4" style="width: 18rem;">
                 <img src="img/cards/cortoa6.jpg" class="card-img-top" alt="Coifin corto a6 black, the box">
                 <div class="card-body">
-                    <h5 class="card-title">Moser T-Cut Тример</h5>
-                    <p class="card-text">Тример Moser T-Cut - стильна і зручна машинка для окантовки з широким лезом T-Blade (40 мм). Є ідеальним варіантом для справжнього професіонала.</p>
+                    <h5 class="card-title">Coifin Corto A6R</h5>
+                    <p class="card-text">Фен Coifin Korto A6 R - дуже хороший професійний фен для волосся від італійського бренду Coifin. Потужність даної моделі 2400 Вт, що дозволяє швидко і легко висушити і укласти волосся, надавши їм необхідну форму. </p>
                     <div class="cardFooter">
-                        <p class="price">Ціна: 3299 ₴</p>
+                        <p class="price">Ціна: 1000 ₴</p>
                         <a href="#" class="btn btn-primary">Buy</a>
                     </div>
                 </div>
             </article >
             <article  class="card col-12 col-sm-6 col-md-4" style="width: 18rem;">
-                <img src="img/cards/cortoa6.jpg" class="card-img-top" alt="Coifin corto a6 black, the box">
+                <img src="img/cards/wahl_magic3.jpg" class="card-img-top" alt="Coifin corto a6 black, the box">
                 <div class="card-body">
-                    <h5 class="card-title">Moser T-Cut Тример</h5>
-                    <p class="card-text">Тример Moser T-Cut - стильна і зручна машинка для окантовки з широким лезом T-Blade (40 мм). Є ідеальним варіантом для справжнього професіонала.</p>
+                    <h5 class="card-title">Magic Clip 5 Star Cordless</h5>
+                    <p class="card-text">Машинки для стрижки Magic Clip Cordless - це найкраща модель з лінійки професійних іструментів для Бабрершопів. </p>
                     <div class="cardFooter">
-                        <p class="price">Ціна: 3299 ₴</p>
+                        <p class="price">Ціна: 4500 ₴</p>
                         <a href="#" class="btn btn-primary">Buy</a>
                     </div>
                 </div>
             </article >
             <article  class="card col-12 col-sm-6 col-md-4" style="width: 18rem;">
-                <img src="img/cards/cortoa6.jpg" class="card-img-top" alt="Coifin corto a6 black, the box">
+                <img src="img/cards/bab-elipsis.jpg" class="card-img-top" alt="Coifin corto a6 black, the box">
                 <div class="card-body">
-                    <h5 class="card-title">Moser T-Cut Тример</h5>
-                    <p class="card-text">Тример Moser T-Cut - стильна і зручна машинка для окантовки з широким лезом T-Blade (40 мм). Є ідеальним варіантом для справжнього професіонала.</p>
+                    <h5 class="card-title">Babyliss 3000 Ellipsis</h5>
+                    <p class="card-text">Elipsis3000 BAB3000EPE - модель з унікальною формою корпусу з нержавіючої сталі з хромованим покриттям.</p>
                     <div class="cardFooter">
-                        <p class="price">Ціна: 3299 ₴</p>
+                        <p class="price">Ціна: 3500 ₴</p>
+                        <a href="#" class="btn btn-primary">Buy</a>
+                    </div>
+                </div>
+            </article > 
+            <article  class="card col-12 col-sm-6 col-md-4" style="width: 18rem;">
+                <img src="img/cards/corto-a2r.jpg" class="card-img-top" alt="Coifin corto a6 black, the box">
+                <div class="card-body">
+                    <h5 class="card-title">Coifin Korto A2R</h5>
+                    <p class="card-text">Фен Coifin Korto A2R Ion Blue - якісна модель для швидкого сушіння й точного укладання волосся, оснащена потужним мотором на 2400 Вт і функцією турбонаддува.</p>
+                    <div class="cardFooter">
+                        <p class="price">Ціна: 1100 ₴</p>
+                        <a href="#" class="btn btn-primary">Buy</a>
+                    </div>
+                </div>
+            </article > 
+            <article  class="card col-12 col-sm-6 col-md-4" style="width: 18rem;">
+                <img src="img/cards/babcurl.jpeg" class="card-img-top" alt="Coifin corto a6 black, the box">
+                <div class="card-body">
+                    <h5 class="card-title">Babyliss BAB2665E</h5>
+                    <p class="card-text">Babyliss BAB2665E плойка, що сама створює локони. Просто довіртеся цьому чуд прогреса і вона створить вам кудрі за декілька хвилин сама!</p>
+                    <div class="cardFooter">
+                        <p class="price">Ціна: 5200 ₴</p>
                         <a href="#" class="btn btn-primary">Buy</a>
                     </div>
                 </div>
             </article > 
         </div>
-   	    <section class="more">
+   	    <div class="more">
             <a href="#">See more</a>
-        </section>
+        </div>
 		<article class="brnds">
 	    	<h2 class="brendlogo">Brends</h2>
             <div class="imlogo">
@@ -145,28 +200,29 @@
 	<footer class="container">
         <h2 id="footr">Контакти</h2>
         <section class="footercontain">
-            <section class="emailAndPhone">
-		    <label class="email"><img src="img/supImg/mail.png" alt="email" height="25" width="30">
-                <input type="text" name="mail" placeholder="Enter your email">
-            </label>
-		    <div id="contphone">
-			    <img src="img/supImg/phone.png" id="phonopic" alt="phone us"> 
-                <p>Наш телефон 067-333-**-**</p>
+            <div class="emailAndPhone">
+		        <label class="email"><img src="img/supImg/mail.png" alt="email" height="25" width="30">
+                    <input type="text" name="mail" placeholder="Enter your email">
+                </label>
+		        <div id="contphone">
+			        <img src="img/supImg/phone.png" id="phonopic" alt="phone us"> 
+                    <p id="phone-number">Наш телефон 067-333-**-**</p>
+                </div>
             </div>
-        </section>
-		<section class="contact">
-		    <a href="#">About shop</a>
-		    <a href="#">Contacts</a>
-		    <a href="#">Delivery</a>
-		    <a href="#">Guarantee and return policy</a>
-		</section>
-		<section class="adress">
-		    <p>Adress: Lviv, str. Chehova, 26</p>
-		    <iframe
-		        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2573.2209247962865!2d24.039779515709284!3d49.83830627939549!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473add233864821f%3A0xdc958e021e1be620!2z0KHRgtC40LvRltGB0YI!5e0!3m2!1suk!2sua!4v1590345260656!5m2!1suk!2sua"
-		        width="200" height="150" frameborder="0" style="border:0;" allowfullscreen=""
-		        aria-hidden="false" tabindex="0"></iframe>
-		</section>  
+		    <div class="contact">
+		        <h6><a href="#">About shop</a></h6>
+		        <a href="#">Contacts</a>
+		        <a href="#">Delivery</a>
+		        <a href="#">Guarantee and return policy</a>
+		    </div>
+		    <address class="adress">
+                <p id="adress">Address</p>
+		        <p>Adress: Lviv, str. Chehova, 26</p>
+		        <iframe
+		            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2573.2209247962865!2d24.039779515709284!3d49.83830627939549!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473add233864821f%3A0xdc958e021e1be620!2z0KHRgtC40LvRltGB0YI!5e0!3m2!1suk!2sua!4v1590345260656!5m2!1suk!2sua"
+		            width="200" height="150" frameborder="0" style="border:0;" allowfullscreen=""
+		            aria-hidden="false" tabindex="0"></iframe>
+		    </address>  
         </section>  
 	</footer>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"

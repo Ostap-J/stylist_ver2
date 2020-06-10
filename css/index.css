@@ -9,9 +9,24 @@ header {
     background: #e7e1e1;
 }
 
-#headicon{
+div#headicon{
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-end;
+}
+
+#search-icon {
+    height: 25px;
+    width: 25px;
+    padding: 2px;
+}
+
+button.btn-outline-success{
+    padding: 0px 16px;
+}
+
+#cart-icon{
+    height: 30px;
+    width: 30px;
 }
 h1.container {
     display: flex;
@@ -87,16 +102,21 @@ div#contphone {
     width: 30px;
     height: 25px;
     padding: 2px;
+    margin: 5px;
 }
 
-section.contact {
+#phone-number{
+    margin: 6px 0px 10px;
+}
+
+.contact {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 }
 
-section.emailAndPhone{
+.emailAndPhone{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -107,6 +127,12 @@ section.emailAndPhone{
     display: flex;
     flex-flow: column wrap;
     margin-bottom: 15px;
+    align-items: center;
+}
+#adress {
+    margin-top: 10px;
+    font-size: 30px;
+    font-weight: bold;
 }
 
 @media (max-width:600px) {
@@ -114,5 +140,21 @@ section.emailAndPhone{
     display: flex;
     flex-flow: column wrap;
     justify-content: space-between;
+    }
+    
+    form.form-inline{
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media (max-width:1200px) {
+    button.btn-outline-success {
+        display: none;
+    }
+
+    form.form-inline{
+        display: flex;
+        justify-content: center;
     }
 }
