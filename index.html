@@ -110,7 +110,13 @@
     <main class="container">
         <h2 class="headingMain">Інтернет магазин</h2>
         <h3 class="popular">Найпопулярніші позиції</h3>
-        <div class="row">
+        <section>
+            <h2 id="products">Products</h2>
+            <div class="row products-container">
+               <!--Products are dynamically generated here-->
+            </div>
+        </section>
+        <!--<div class="row">
             <article  class="card col-12 col-sm-6 col-md-4" style="width: 18rem;">
                 <img src="img/cards/moser-t-cut.jpg" class="card-img-top" alt="Coifin corto a6 black, the box">
                 <div class="card-body">
@@ -177,7 +183,7 @@
                     </div>
                 </div>
             </article > 
-        </div>
+        </div>-->
    	    <div class="more">
             <a href="#">See more</a>
         </div>
@@ -234,5 +240,11 @@
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
 		integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous">
 	</script>
+    <script defer src="https://use.fontawesome.com/releases/v5.5.0/js/all.js" integrity="sha384-GqVMZRt5Gn7tB9D9q7ONtcp4gtHIUEW/yG7h98J7IpE3kpi+srfFyyB/04OV6pG0" crossorigin="anonymous"></script>
+    <script async src="js/alert-window.js"></script>
+    <script defer src="js/products-service.js"></script>
+    <script defer src="js/cart.js"></script>
+    <script defer src="js/product-list.js"></script>    
+    <script defer src="js/index.js"></script>
 </body>
 </html>
