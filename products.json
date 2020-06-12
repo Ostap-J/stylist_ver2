@@ -9,7 +9,7 @@
     {
         "id": "2",
         "title": "Самонакручуюча плойка",
-        "image": "babcurl.jpeg",
+        "image": "babcurl.jpg",
         "description": "Втомилися крути всої локони в ручну? Спробуйте автоматичну накрутку з новинкою!",
         "price": 199.99
     },
@@ -22,28 +22,28 @@
     },
     {
         "id": "4",
-        "title": "Фен Coifin Corto A2R",
+        "title": "Coifin Corto A2R",
         "image": "corto-a2r.jpg",
         "description": "Один із кращих і надійніших пропозицій на ринку професійної техніки для перукарів",
         "price": 1100.00
     },
     {
         "id": "5",
-        "title": "Moser Clipper T-Cut Blade",
+        "title": "Moser Clipper T-Cut",
         "image": "moser-t-cut.jpg",
         "description": "Шукаєте тример для бороди, що вміє робити довгі лінії? Легко справиться T-Cut !!",
         "price": 3600.00
     },
     {
         "id": "6",
-        "title": "Фен Coifin Corto A6",
+        "title": "Coifin Corto A6",
         "image": "cortoa6.jpg",
         "description": "Легендарний фен від компанії Coifin. Простий в керуванні, з кнопкою охолодження",
         "price": 1000.00
     },
     {
         "id": "7",
-        "title": "Wahl Magic Clip 5 Star",
+        "title": "Wahl Magic Clip",
         "image": "wahl_magic3.jpg",
         "description": "Безпровідна, точна та безвідказна професійна машинка. Вибір барберів №1 ",
         "price": 4500.00
