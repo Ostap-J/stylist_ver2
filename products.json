@@ -1,65 +1,65 @@
 [
     {
         "id": "1",
-        "title": "Large drone",
+        "title": "Утюжок Babyliss",
         "image": "bab-elipsis.jpg",
-        "description": "Спеціальний утюжок.",
-        "price": 499.99
+        "description": "Спеціальний утюжок моделі 3100, який ще і накрутить Вас! Форма має значення!!!!!!",
+        "price": 3600.00
     },
     {
         "id": "2",
-        "title": "Small drone",
-        "image": "drone-small.jpg",
-        "description": "Small drone. Can fly undetected.",
+        "title": "Самонакручуюча плойка",
+        "image": "babcurl.jpeg",
+        "description": "Втомилися крути всої локони в ручну? Спробуйте автоматичну накрутку з новинкою!",
         "price": 199.99
     },
     {
         "id": "3",
-        "title": "Blue drone",
-        "image": "drone-blue.jpg",
-        "description": "Nice-looking drone in blue color. Has built-in HD camera",
+        "title": "Сухожар 5л",
+        "image": "sterelizator.jpg",
+        "description": "Потужний стерелізатор, який знищить всі мікроби на своєму шляху! Це саме те для Вас!",
         "price": 249.99
     },
     {
         "id": "4",
-        "title": "Red drone",
-        "image": "drone-red.jpg",
-        "description": "Nice-looking drone in red color",
-        "price": 229.99
+        "title": "Фен Coifin Corto A2R",
+        "image": "corto-a2r.jpg",
+        "description": "Один із кращих і надійніших пропозицій на ринку професійної техніки для перукарів",
+        "price": 1100.00
     },
     {
         "id": "5",
-        "title": "Black gyroboard",
-        "image": "gyroboard-black.jpg",
-        "description": "Black gyroboard to match your style",
-        "price": 729.99
+        "title": "Moser Clipper T-Cut Blade",
+        "image": "moser-t-cut.jpg",
+        "description": "Шукаєте тример для бороди, що вміє робити довгі лінії? Легко справиться T-Cut !!",
+        "price": 3600.00
     },
     {
         "id": "6",
-        "title": "White gyroboard",
-        "image": "gyroboard-white.jpg",
-        "description": "White gyroboard with blue lights",
-        "price": 829.99
+        "title": "Фен Coifin Corto A6",
+        "image": "cortoa6.jpg",
+        "description": "Легендарний фен від компанії Coifin. Простий в керуванні, з кнопкою охолодження",
+        "price": 1000.00
     },
     {
         "id": "7",
-        "title": "Tesla Model X",
-        "image": "tesla-x.jpg",
-        "description": "Best crossover in the World",
-        "price": 99999.99
+        "title": "Wahl Magic Clip 5 Star",
+        "image": "wahl_magic3.jpg",
+        "description": "Безпровідна, точна та безвідказна професійна машинка. Вибір барберів №1 ",
+        "price": 4500.00
     },
     {
         "id": "8",
-        "title": "Tesla Roadster",
-        "image": "tesla-roadster.jpg",
-        "description": "Best sports car in the World",
-        "price": 249999.99
+        "title": "Babyliss Girls",
+        "image": "babHairdrier.jpg",
+        "description": "Рожевий, потужний, ніжний до волосся - і це все фен! Краса у всьому",
+        "price": 3700.00
     },
     {
         "id": "9",
         "title": "Hair Drier Babyliss",
         "image": "babHairdrier.jpg",
-        "description": "Best choice for ladies!",
+        "description": "Best choice for ladies! Something new + something fashionly pink",
         "price": 3000.00
     }
 ]
