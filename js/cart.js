@@ -21,9 +21,9 @@ class Cart {
     let total = 0;
     let cartDomSting = `<div class="container">
                 <div class="row">
-                    <div class="col-5"><strong>Product</strong></div>
-                    <div class="col-3"><strong>Price ₴</strong></div>
-                    <div class="col-2"><strong>Quantity</strong></div>
+                    <div class="col-5"><strong>Продукт</strong></div>
+                    <div class="col-3"><strong>Ціна ₴</strong></div>
+                    <div class="col-2"><strong>Кількість</strong></div>
                 </div>`;
     for (const id in this.cart) {
       const product = await this.productService.getProductById(id);
@@ -39,7 +39,7 @@ class Cart {
     total = total.toFixed(2);
     cartDomSting += `
                 <div class="row">
-                    <div class="col-5"><strong>TOTAL</strong></div>
+                    <div class="col-5"><strong>Сума</strong></div>
                     <div class="col-3"><strong>₴${total}</strong></div>
                 </div>            
         </div>`;
@@ -94,7 +94,7 @@ class Cart {
   }
   order(ev) {
     if (this.cartLength() === 0) {
-      window.showAlert('Please choose products to order', false);
+      window.showAlert('Виберіть продукт, який Ви хотіли б замовити', false);
       return;
     }    
     const form = this.cartContainer.querySelector('.form-contacts');
