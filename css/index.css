@@ -135,7 +135,7 @@ div#contphone {
     font-weight: bold;
 }
 
-@media (max-width:600px) {
+@media (max-width:775px) {
     section.footercontain{
     display: flex;
     flex-flow: column wrap;
@@ -156,5 +156,11 @@ div#contphone {
     form.form-inline{
         display: flex;
         justify-content: center;
+    }
+}
+
+@media (min-width:575px) {
+    .card.product{
+        height: 500px;
     }
 }
