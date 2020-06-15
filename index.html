@@ -264,16 +264,20 @@
           <div class="modal-body">
             <div class="cart-product-list-container"></div>
             <hr>
-            <div class="container">
+            <div class="container" id="emailsend">
+		<div>
+		    <div>
 		<form id="fs-frm" name="department-contact-form" accept-charset="utf-8"
 			action="https://formspree.io/flysostapj@gmail.com" method="post">
 			<fieldset id="fs-frm-inputs">
-			<label for="full-name">Full Name</label>
+			<label for="full-name">Ваше імя:</label>
 			<input type="text" name="name" id="full-name" placeholder="First and Last" required="">
-			<br>
-			<label for="email-address">Email Address</label>
-			<input type="email" name="_replyto" id="email-address" placeholder="Enter your email" required="">
-	    
+		</div>
+		<div>
+			<label for="email-address">Email:</label>
+			<input type="email" name="_replyto" id="email-address" placeholder="Введіть вашу Email адресу" required="">
+	    	</div>
+			</div>
               <!--<form class="form-contacts">
                 <div class="form-group row">
                   <label for="client-name" class="col-4 col-form-label">Ваше імя:</label>
