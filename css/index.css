@@ -170,3 +170,8 @@ div#contphone {
     justify-content: space-between;
 }
 
+#cart-your-name {
+    display: flex;
+    justify-content: space-between;
+}
+
