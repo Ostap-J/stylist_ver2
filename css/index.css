@@ -164,3 +164,8 @@ div#contphone {
         height: 500px;
     }
 }
+
+#cart-email {
+    display: flex;
+    justify-content: space-between;
+}
