@@ -169,3 +169,8 @@ div#contphone {
     display: flex;
     justify-content: space-between;
 }
+
+#fs-frm-inputs {
+    display: flex;
+    justify-content: space-between;
+}
