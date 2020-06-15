@@ -265,7 +265,16 @@
             <div class="cart-product-list-container"></div>
             <hr>
             <div class="container">
-              <form class="form-contacts">
+		<form id="fs-frm" name="department-contact-form" accept-charset="utf-8"
+			action="https://formspree.io/flysostapj@gmail.com" method="post">
+			<fieldset id="fs-frm-inputs">
+			<label for="full-name">Full Name</label>
+			<input type="text" name="name" id="full-name" placeholder="First and Last" required="">
+			<br>
+			<label for="email-address">Email Address</label>
+			<input type="email" name="_replyto" id="email-address" placeholder="Enter your email" required="">
+	      </form>
+              <!--<form class="form-contacts">
                 <div class="form-group row">
                   <label for="client-name" class="col-4 col-form-label">Ваше імя:</label>
                   <input class="form-control col-8" type="text" id="client-name" required>
@@ -274,7 +283,7 @@
                   <label for="client-email" class="col-4 col-form-label">Ваш email:</label>
                   <input class="form-control col-8" type="email" id="client-email" required>
                 </div>
-              </form>
+              </form>-->
             </div>
           </div>
           <div class="modal-footer">
