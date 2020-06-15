@@ -170,8 +170,3 @@ div#contphone {
     justify-content: space-between;
 }
 
-#fs-frm-inputs {
-    display: flex;
-    flex-wrap: nowrap;
-    justify-content: space-between;
-}
